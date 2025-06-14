@@ -10,7 +10,6 @@ interface ExerciseImageProps {
 export default function ExerciseImage({ src, alt, className = '' }: ExerciseImageProps) {
   const [hasError, setHasError] = useState(false);
 
-  // Imagen placeholder en data URL (80x80 gris)
   const placeholderImage = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiBmaWxsPSIjMzc0MTUxIi8+CjxwYXRoIGQ9Ik0zMCAyNUg1MFY1NUgzMFYyNVoiIGZpbGw9IiM2QjcyODAiLz4KPGNpcmNsZSBjeD0iMzciIGN5PSIzMyIgcj0iMyIgZmlsbD0iIzlDQTNBRiIvPgo8L3N2Zz4K";
 
   if (hasError) {

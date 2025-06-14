@@ -9,28 +9,28 @@ const exercises = [
     name: 'Puxada frontal',
     series: 3,
     repetitions: 12,
-    image: '/images/exercises/puxada-frontal.jpg'
+    image: '/images/imagen 2.png'
   },
   {
     id: '2', 
     name: 'Remada curvada',
     series: 3,
     repetitions: 12,
-    image: '/images/exercises/remada-curvada.jpg'
+    image: '/images/imagen 1.png'
   },
   {
     id: '3',
     name: 'Remada unilateral', 
     series: 3,
     repetitions: 12,
-    image: '/images/exercises/remada-unilateral.jpg'
+    image: '/images/imagen 4 .png'
   },
   {
     id: '4',
     name: 'Levantamento terra',
     series: 3,
     repetitions: 12,
-    image: '/images/exercises/levantamento-terra.jpg'
+    image: '/images/imagen 3 .png'
   }
 ];
 

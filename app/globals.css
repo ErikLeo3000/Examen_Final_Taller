@@ -150,19 +150,6 @@ body {
   position: relative;
 }
 
-.w-8 {
-  width: 2rem;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-center {
-  text-align: center;
+.overflow-hidden {
+  overflow: hidden;
 }
